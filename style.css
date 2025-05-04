@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a;
+    color: #ccc;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+  h1 {
+    font-size: 4em;
+    color: #aaa;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px rgba(255,255,255,0.1);
+  }
+
+  .tagline {
+    font-size: 1.2em;
+    margin: 20px 0;
+    letter-spacing: 3px;
+  }
+  .enter-button {
+    background: transparent;
+    border: 1px solid #555;
+    color: #ddd;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+  }
+
+  .enter-button:hover {
+    background-color: #111;
+    color: #fff;
+  }
+
+  .section {
+    margin-top: 60px;
+  }
+
+  .section h2 {
+    font-size: 2em;
+    color: #888;
+    letter-spacing: 2px;
+  }
+
+  .section p {
+    max-width: 600px;
+    margin: 20px auto;
+    color: #666;
+    line-height: 1.6;
+  }
+
+  .menu {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 1em;
+    color: #666;
+    cursor: pointer;
+  }
+  .twitter-link {
+    text-decoration: none; 
+    color: #6a61e0; /* Twitter blue */
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .twitter-link:hover {
+    text-decoration: underline; /* Optional: add underline on hover */
+    color: #0d8ddb; /* Slightly darker blue on hover */
+  }
+
+  .img {
+    vertical-align: middle;
+    margin-right: 6px;
+  }
